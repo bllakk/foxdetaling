@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@font-face {
+    font-family: 'Tungsten-Medium';
+    src: url('./Tungsten-Medium.ttf') format('truetype');
+    
+}
+
+:root {
+    --blue: #1E1E28;
+    --orange: #FE8301;
+    --white: #ECECEC;
+    --black: #09090B;
+    --grey: #18181B;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--blue);
+}
+table{
+    border-collapse: collapse;
+}
+.div-table{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-table h1, h3 {
+    font-family: 'Tungsten-Medium', Arial, sans-serif;font-size: 2rem;
+    color: var(--white);
+}
+.div-table h1{
+    font-size: 4rem;
+    color: var(--orange);
+}
+.div-table h3{
+    font-size: 2rem;
+}
+.table-1{
+    width: 90vw;
+    font-family: "Poppins", serif;
+}
+.table-1  th{
+    text-align: start;
+    border: none;
+    font-size: 1.5rem;
+    background-color: var(--grey);
+    color: var(--white);
+    padding-inline: 0.5rem;
+    padding-block: 0.5rem;
+}
+.table-1  td{
+    font-size: 2rem;
+    color: var(--white);
+    text-align: start;
+    padding-inline: 0.5rem;
+    padding-block: 0.5rem;
+}
+.table-1 tbody{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+
+
+
+
+
+
+.table-2{
+    width: 80vw;
+    font-family: "Poppins", serif;
+    box-shadow: 0 0 0 1px #27272a;
+    margin-top: 1rem;
+}
+.table-2 thead{
+    background-color: var(--grey);
+    color: var(--white);
+}
+.table-2 tbody{
+    background-color: var(--black);
+    color: var(--white);
+}
+.table-2 tr{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border: 1px solid #18181B;
+}
+.table-2 th{
+    text-align: start;
+    padding-inline: 0.5rem;
+    padding-block: 0.5rem;
+}
+.table-2 td{
+    text-align: start;
+    padding-inline: 0.5rem;
+    padding-block: 0.5rem;
+}
+
+.end{
+    text-align: end !important;
+}
